@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.webp" alt="LLMind Logo" width="150" />
+  <img src="assets/logo.webp" alt="LLMind Logo" width="350" />
 </p>
 
 # 💬 LLMind
