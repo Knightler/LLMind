@@ -1,6 +1,9 @@
 # Ignore large model weight files
 *.bin
 *.zip
+*.safetensors
+model/model.safetensors
+
 
 # Ignore Python cache files
 __pycache__/
@@ -8,9 +11,6 @@ __pycache__/
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
-
-# Ignore saved model folder (optional)
-model/pytorch_model.bin
 
 # Ignore any hidden system files
 .DS_Store
