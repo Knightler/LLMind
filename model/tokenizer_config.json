@@ -1,0 +1,31 @@
+{
+  "add_bos_token": false,
+  "add_prefix_space": false,
+  "added_tokens_decoder": {
+    "50256": {
+      "content": "<|endoftext|>",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "bos_token": "<|endoftext|>",
+  "chat_template": "{% for message in messages %}{{ message.content }}{{ eos_token }}{% endfor %}",
+  "clean_up_tokenization_spaces": true,
+  "eos_token": "<|endoftext|>",
+  "errors": "replace",
+  "extra_special_tokens": {},
+  "max_length": 1024,
+  "model_max_length": 1024,
+  "pad_to_multiple_of": null,
+  "pad_token": "<|endoftext|>",
+  "pad_token_type_id": 0,
+  "padding_side": "right",
+  "stride": 0,
+  "tokenizer_class": "GPT2Tokenizer",
+  "truncation_side": "right",
+  "truncation_strategy": "longest_first",
+  "unk_token": "<|endoftext|>"
+}
