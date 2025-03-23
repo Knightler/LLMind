@@ -13,16 +13,6 @@ Unlike typical bots that rely on external APIs, LLMind features a **self-trained
 
 ---
 
-## 🧠 What You’ll Learn
-
-- 🤖 Core NLP and LLM foundations with Hugging Face Transformers  
-- 🔁 Transfer learning: Fine-tuning GPT-like models for custom behavior  
-- 🧱 Full-stack web integration: Python, Django, HTML/CSS/JS  
-- 🔌 Model serving and backend API architecture  
-- 🌍 Fast deployment using Gradio, Render, and beyond
-
----
-
 ## 🔧 Tech Stack
 
 | Layer        | Tools |
@@ -45,7 +35,7 @@ LLMind/
 ├── model/          # Saved model & tokenizer (except .bin)
 ├── backend/        # Django API (coming soon)
 ├── frontend/       # Chat UI (coming soon)
-├── data/           # Custom training data
+├── utils/           # Custom training data
 ├── gradio_app/     # Gradio app script
 └── README.md       # You're reading it
 ```
