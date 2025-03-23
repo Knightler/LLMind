@@ -48,7 +48,7 @@ LLMind/
 ├── data/           # Custom training data
 ├── gradio_app/     # Gradio app script
 └── README.md       # You're reading it
-
+```
 ---
 
 ## 🚀 Usage (Quick Start with Gradio)
